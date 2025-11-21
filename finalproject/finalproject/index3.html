@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1"
+  >
+  <!-- Author: Nathan Spollen -->
+  <meta name="author" content="Nathan Spollen">
+
+  <title>Contact & Subscription | Good Health & Wellbeing</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+    crossorigin="anonymous"
+  >
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style1.css">
+</head>
+
+<body class="nathan">
+
+  <div class="container-md contact-page">
+
+    <!-- Header / Hero -->
+    <header class="row align-items-center mb-4 my-custom-row-top">
+      <div class="col-md-8 header-top">
+        <h1 id="main-header" class="bebas-neue-regular mb-2">
+          Contact & Subscription
+        </h1>
+        <p class="inter-regular header-subtitle mb-0">
+          Help us complete our mission to promote good health and wellbeing — it benefits us all.
+        </p>
+      </div>
+
+      <div class="col-md-4 text-center text-md-end mt-4 mt-md-0">
+        <img
+          src="Wireframe1.jpeg"
+          alt="Illustration representing health and wellbeing"
+          class="im1 img-fluid"
+        >
+      </div>
+    </header>
+
+    <!-- Intro Text -->
+    <main>
+      <section class="row my-custom-row-mid mb-4">
+        <div class="col-12">
+          <p class="inter-regular mb-0">
+            Good Health and Wellbeing is one of the most important topics individuals can understand, as it can
+            significantly benefit — or hinder — their own lives and the lives of those around them. In the long term,
+            our collective health truly becomes our wealth. Since the beginning of human history, people have sought
+            ways to survive, thrive, and live better. Whether it is discussing mental health with friends or stopping
+            by the gym after class, these small actions contribute to a healthier society in both spirit and mind.
+          </p>
+          <p class="inter-regular mb-0 mt-3">
+            But personal actions alone are not enough. We must also think about the foundations of a strong and prosperous
+            society — one that people are proud to belong to. Educational programs, awareness campaigns, and community
+            support systems are just some of the many elements found in a society that truly values good health and
+            wellbeing.
+          </p>
+        </div>
+      </section>
+
+      <!-- Form + Contact Details -->
+      <section class="row g-4 mb-4">
+        <!-- Subscription Form -->
+        <div class="col-md-6">
+          <div class="form-card p-3 p-md-4 h-100">
+            <h2 class="bebas-neue-regular mb-2">Want to help us on our mission?</h2>
+            <p class="inter-regular mb-3">Subscribe to our newsletter and stay informed.</p>
+
+            <form
+              class="subscription-form inter-regular"
+              action="mailto:x24249751@student.ncirl.ie"
+              method="POST"
+              enctype="text/plain"
+            >
+              <div class="mb-3">
+                <label for="firstName" class="form-label">First Name</label>
+                <input
+                  id="firstName"
+                  name="First Name"
+                  type="text"
+                  class="form-control"
+                  required
+                >
+              </div>
+
+              <div class="mb-3">
+                <label for="lastName" class="form-label">Last Name</label>
+                <input
+                  id="lastName"
+                  name="Last Name"
+                  type="text"
+                  class="form-control"
+                  required
+                >
+              </div>
+
+              <div class="mb-3">
+                <label for="phoneNumber" class="form-label">Phone Number</label>
+                <input
+                  id="phoneNumber"
+                  name="Phone Number"
+                  type="tel"
+                  class="form-control"
+                >
+              </div>
+
+              <div class="mb-3">
+                <label for="emailAddress" class="form-label">Email Address</label>
+                <input
+                  id="emailAddress"
+                  name="Email Address"
+                  type="email"
+                  class="form-control"
+                  required
+                >
+              </div>
+
+              <button type="submit" class="btn btn-primary w-100">
+                Subscribe
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <!-- Founders Contact Table -->
+        <div class="col-md-6">
+          <div class="contacts-card p-3 p-md-4 h-100">
+            <h2 class="bebas-neue-regular mb-2">Founders’ Contact Details</h2>
+            <p class="inter-regular mb-3">
+              For any questions or enquiries, feel free to reach out to us directly.
+            </p>
+
+            <div class="table-responsive">
+              <table class="table table-sm table-borderless align-middle contact-table inter-regular">
+                <thead>
+                  <tr>
+                    <th scope="col" class="bebas-neue-regular">Name</th>
+                    <th scope="col" class="bebas-neue-regular">Email</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Nathan Spollen</td>
+                    <td><a href="mailto:X24249751@student.ncirl.ie">X24249751@student.ncirl.ie</a></td>
+                  </tr>
+                  <tr>
+                    <td>Founder Two</td>
+                    <td><a href="mailto:founder2@example.com">founder2@example.com</a></td>
+                  </tr>
+                  <tr>
+                    <td>Founder Three</td>
+                    <td><a href="mailto:founder3@example.com">founder3@example.com</a></td>
+                  </tr>
+                  <tr>
+                    <td>Founder Four</td>
+                    <td><a href="mailto:founder4@example.com">founder4@example.com</a></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- Back to Home Button -->
+      <section class="row">
+        <div class="col-12 text-center">
+          <!-- Change href to your actual homepage file if different -->
+          <a href="#" class="btn btn-outline-light home-link">
+            Back to Home
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="mt-4 text-center inter-regular footer-text">
+      &copy; 2025 Good Health &amp; Wellbeing Initiative. All rights reserved.
+    </footer>
+
+  </div>
+
+  <!-- Bootstrap JS Bundle -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"
+  ></script>
+</body>
+</html>
