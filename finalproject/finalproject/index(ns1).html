@@ -147,11 +147,30 @@
              </footer>
 			
 		</div>
-		
+			
+
 	
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-		
-		
+		<script>
+			document.addEventListener("keydown", function(event) {
+				if (event.key === "Enter") {
+					const form = document.querySelector("form");
+					const fields = Array.from(form.querySelectorAll("input, select, textarea, button[type='submit']"));
+					const active = document.activeElement;
+					const index = fields.indexOf(active);
+
+					// Prevent default Enter behaviour except when last field is focused			<-- Controls form responsiveness-->
+					if (index < fields.length - 1) {
+						event.preventDefault();
+						fields[index + 1].focus();  // Go to next field
+					} else {
+						// Last field → submit the form
+						form.submit();
+					}
+				}
+			});
+       </script>
+
 		
 		
 

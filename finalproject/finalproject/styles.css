@@ -20,9 +20,9 @@
 }
 .nathan{
 	color:#ABC79F;
-	background-color:#42633C;
-	background:url("trees.jpeg");
-	background-repeat: no-repeat;
+	background;;
+		background-color:#42633C;
+	 background-repeat: repeat-y;
 	animation: scrollBackground 10s linear infinite;
 	background-size: cover; 
 	 background-attachment: fixed;
@@ -34,6 +34,8 @@
     gap: 40px;          /* space between left and right */
     align-items: flex-start;
     margin-top: 30px;
+	
+	
 }
 
 .container-md{
@@ -66,7 +68,7 @@
 }
 
 .im1:hover{
-	transform:scale(1.1);
+	transform:scale(1.1); /*Makes image interactive*/
 }
 
 
@@ -186,11 +188,12 @@ table.my-table.table-hover tbody tr:hover > td {
 	background-color: rgba(27, 27, 27, 0.9) ;
 	padding:15px;
 	border-radius: 10px;
-	display:auto;
+	display:flex;
 	flex:wrap;
 	white-space:normal;
 	color: #ABC79F;
 	width:;
+	 align-items: flex-start;
 }
 
 .page-2{
@@ -210,6 +213,12 @@ table.my-table.table-hover tbody tr:hover > td {
   font-weight: 100;
   font-style: normal;
 }
+
+.nav-link {
+    color:  #ABC79F !important;
+	
+}
+
 
 
 	
