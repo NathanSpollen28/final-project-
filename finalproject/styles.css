@@ -20,9 +20,9 @@
 }
 .nathan{
 	color:#ABC79F;
-	background-color:#42633C;
-	background:url("trees.jpeg");
-	background-repeat: no-repeat;
+	background;;
+		background-color:#42633C;
+	 background-repeat: repeat-y;
 	animation: scrollBackground 10s linear infinite;
 	background-size: cover; 
 	 background-attachment: fixed;
@@ -34,6 +34,8 @@
     gap: 40px;          /* space between left and right */
     align-items: flex-start;
     margin-top: 30px;
+	
+	
 }
 
 .container-md{
@@ -57,16 +59,19 @@
 
 .im1 {
   width: 100%;  /*makes image not go outside container*/
-  height: 100px;
+  height: 100%;
   border-radius: 12px;
   object-fit:cover;
   transition:1s ease;
+  background-color:rgba(27, 27, 27, 0.9);
+  border:solidrgba(27, 27, 27, 0.9);
+  align-items:centre;
   
   
 }
 
 .im1:hover{
-	transform:scale(1.1);
+	transform:scale(1.1); /*Makes image interactive*/
 }
 
 
@@ -78,6 +83,7 @@
 
 
 /* hardest part to figure out  2 hours */
+
 table.my-table,
 table.my-table > tbody > tr,
 table.my-table > tbody > tr > td,
@@ -172,23 +178,50 @@ table.my-table.table-hover tbody tr:hover > td {
 	justify-content:centre;
 }
 
-.nav-link{
-	background-color:#42633C;
-	color:#1B1B1B;
+
+}
+
+ .navbar{
+	 width:100%;
+ }
+ 
+ /*page 2 css */
+
+.nathan2{
+	word-wrap: break-word;
+	background-color: rgba(27, 27, 27, 0.9) ;
+	padding:15px;
+	border-radius: 10px;
+	display:flex;
+	flex:wrap;
+	white-space:normal;
+	color: #ABC79F;
+	width:;
+	 align-items: flex-start;
+}
+
+.page-2{
+	border:solid #5E7D67;
+	border-radius:10px ;
+	max-width:1400px;
+	
+}
+.im2{
+	max-width:100%;
+	padding:5px;
 	
 }
 
-.nav-link{
-		border:#ABC79F;
-		justify-content:space between;
+.bebas-neue-regular-2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 100;
+  font-style: normal;
 }
 
-.nav-tabs{
-		color:#ABC79F;
-		background-color:;
+.nav-link {
+    color:  #ABC79F !important;
+	
 }
-
-
 
 
 
