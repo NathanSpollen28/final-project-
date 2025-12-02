@@ -25,8 +25,6 @@
 	 background-repeat: repeat-y;
 	animation: scrollBackground 10s linear infinite;
 	background-size: cover; 
-	 background-attachment: fixed;
-	 background-position: center top;
 	 max-width:1400px;  /*size of container max is 1400px */
 	 margin:0 auto;
 	 padding:20px 40px;
