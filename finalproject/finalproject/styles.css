@@ -59,10 +59,13 @@
 
 .im1 {
   width: 100%;  /*makes image not go outside container*/
-  height: 250px;
+  height: 100%;
   border-radius: 12px;
   object-fit:cover;
   transition:1s ease;
+  background-color:rgba(27, 27, 27, 0.9);
+  border:solidrgba(27, 27, 27, 0.9);
+  align-items:centre;
   
   
 }
@@ -80,6 +83,7 @@
 
 
 /* hardest part to figure out  2 hours */
+
 table.my-table,
 table.my-table > tbody > tr,
 table.my-table > tbody > tr > td,

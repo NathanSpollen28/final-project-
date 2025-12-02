@@ -33,7 +33,7 @@
 	 display: flex;
     gap: 40px;          /* space between left and right */
     align-items: flex-start;
-    margin-top: 30px;
+	padding-top:20px;
 	
 	
 }
@@ -45,6 +45,8 @@
 	display:auto;
 	flex:wrap;
 	white-space:normal;
+	margin-top:20px;
+	
 	
 	
 	
@@ -198,12 +200,14 @@ table.my-table.table-hover tbody tr:hover > td {
 	color: #ABC79F;
 	width:;
 	 align-items: flex-start;
+	 	margin-top:20px;
 }
 
 .page-2{
 	border:solid #5E7D67;
 	border-radius:10px ;
 	max-width:1400px;
+ padding-top:20px;
 	
 }
 .im2{
@@ -221,6 +225,15 @@ table.my-table.table-hover tbody tr:hover > td {
 .nav-link {
     color:  #ABC79F !important;
 	
+}
+
+.navbarimgns1{
+	height:30px;
+	width:30px;
+}
+
+.im2{
+	border-radius:20px;
 }
 
 
